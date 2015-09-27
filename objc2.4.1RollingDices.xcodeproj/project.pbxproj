@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA1EF5471BB6DCAA00E5C6B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1EF5461BB6DCAA00E5C6B5 /* main.m */; };
+		EA1EF54A1BB6DCAA00E5C6B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1EF5491BB6DCAA00E5C6B5 /* AppDelegate.m */; };
+		EA1EF54D1BB6DCAA00E5C6B5 /* RollDiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1EF54C1BB6DCAA00E5C6B5 /* RollDiceViewController.m */; };
+		EA1EF5501BB6DCAA00E5C6B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1EF54E1BB6DCAA00E5C6B5 /* Main.storyboard */; };
+		EA1EF5521BB6DCAA00E5C6B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA1EF5511BB6DCAA00E5C6B5 /* Assets.xcassets */; };
+		EA1EF5551BB6DCAA00E5C6B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1EF5531BB6DCAA00E5C6B5 /* LaunchScreen.storyboard */; };
+		EA1EF5601BB6DCAA00E5C6B5 /* objc2_4_1RollingDicesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1EF55F1BB6DCAA00E5C6B5 /* objc2_4_1RollingDicesTests.m */; };
+		EA1EF56B1BB6DCAA00E5C6B5 /* objc2_4_1RollingDicesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1EF56A1BB6DCAA00E5C6B5 /* objc2_4_1RollingDicesUITests.m */; };
+		EA1EF57A1BB6DE2F00E5C6B5 /* DisplayDicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1EF5791BB6DE2F00E5C6B5 /* DisplayDicesViewController.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA1EF55C1BB6DCAA00E5C6B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA1EF53A1BB6DCAA00E5C6B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA1EF5411BB6DCAA00E5C6B5;
+			remoteInfo = objc2.4.1RollingDices;
+		};
+		EA1EF5671BB6DCAA00E5C6B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA1EF53A1BB6DCAA00E5C6B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA1EF5411BB6DCAA00E5C6B5;
+			remoteInfo = objc2.4.1RollingDices;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA1EF5421BB6DCAA00E5C6B5 /* objc2.4.1RollingDices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = objc2.4.1RollingDices.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1EF5461BB6DCAA00E5C6B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA1EF5481BB6DCAA00E5C6B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA1EF5491BB6DCAA00E5C6B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA1EF54B1BB6DCAA00E5C6B5 /* RollDiceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RollDiceViewController.h; sourceTree = "<group>"; };
+		EA1EF54C1BB6DCAA00E5C6B5 /* RollDiceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RollDiceViewController.m; sourceTree = "<group>"; };
+		EA1EF54F1BB6DCAA00E5C6B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA1EF5511BB6DCAA00E5C6B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA1EF5541BB6DCAA00E5C6B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA1EF5561BB6DCAA00E5C6B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA1EF55B1BB6DCAA00E5C6B5 /* objc2.4.1RollingDicesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = objc2.4.1RollingDicesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1EF55F1BB6DCAA00E5C6B5 /* objc2_4_1RollingDicesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objc2_4_1RollingDicesTests.m; sourceTree = "<group>"; };
+		EA1EF5611BB6DCAA00E5C6B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA1EF5661BB6DCAA00E5C6B5 /* objc2.4.1RollingDicesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = objc2.4.1RollingDicesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1EF56A1BB6DCAA00E5C6B5 /* objc2_4_1RollingDicesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objc2_4_1RollingDicesUITests.m; sourceTree = "<group>"; };
+		EA1EF56C1BB6DCAA00E5C6B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA1EF5781BB6DE2F00E5C6B5 /* DisplayDicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayDicesViewController.h; sourceTree = "<group>"; };
+		EA1EF5791BB6DE2F00E5C6B5 /* DisplayDicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayDicesViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA1EF53F1BB6DCAA00E5C6B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1EF5581BB6DCAA00E5C6B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1EF5631BB6DCAA00E5C6B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA1EF5391BB6DCAA00E5C6B5 = {
+			isa = PBXGroup;
+			children = (
+				EA1EF5441BB6DCAA00E5C6B5 /* objc2.4.1RollingDices */,
+				EA1EF55E1BB6DCAA00E5C6B5 /* objc2.4.1RollingDicesTests */,
+				EA1EF5691BB6DCAA00E5C6B5 /* objc2.4.1RollingDicesUITests */,
+				EA1EF5431BB6DCAA00E5C6B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA1EF5431BB6DCAA00E5C6B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA1EF5421BB6DCAA00E5C6B5 /* objc2.4.1RollingDices.app */,
+				EA1EF55B1BB6DCAA00E5C6B5 /* objc2.4.1RollingDicesTests.xctest */,
+				EA1EF5661BB6DCAA00E5C6B5 /* objc2.4.1RollingDicesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA1EF5441BB6DCAA00E5C6B5 /* objc2.4.1RollingDices */ = {
+			isa = PBXGroup;
+			children = (
+				EA1EF5481BB6DCAA00E5C6B5 /* AppDelegate.h */,
+				EA1EF5491BB6DCAA00E5C6B5 /* AppDelegate.m */,
+				EA1EF54B1BB6DCAA00E5C6B5 /* RollDiceViewController.h */,
+				EA1EF5781BB6DE2F00E5C6B5 /* DisplayDicesViewController.h */,
+				EA1EF5791BB6DE2F00E5C6B5 /* DisplayDicesViewController.m */,
+				EA1EF54C1BB6DCAA00E5C6B5 /* RollDiceViewController.m */,
+				EA1EF54E1BB6DCAA00E5C6B5 /* Main.storyboard */,
+				EA1EF5511BB6DCAA00E5C6B5 /* Assets.xcassets */,
+				EA1EF5531BB6DCAA00E5C6B5 /* LaunchScreen.storyboard */,
+				EA1EF5561BB6DCAA00E5C6B5 /* Info.plist */,
+				EA1EF5451BB6DCAA00E5C6B5 /* Supporting Files */,
+			);
+			path = objc2.4.1RollingDices;
+			sourceTree = "<group>";
+		};
+		EA1EF5451BB6DCAA00E5C6B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA1EF5461BB6DCAA00E5C6B5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA1EF55E1BB6DCAA00E5C6B5 /* objc2.4.1RollingDicesTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA1EF55F1BB6DCAA00E5C6B5 /* objc2_4_1RollingDicesTests.m */,
+				EA1EF5611BB6DCAA00E5C6B5 /* Info.plist */,
+			);
+			path = objc2.4.1RollingDicesTests;
+			sourceTree = "<group>";
+		};
+		EA1EF5691BB6DCAA00E5C6B5 /* objc2.4.1RollingDicesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA1EF56A1BB6DCAA00E5C6B5 /* objc2_4_1RollingDicesUITests.m */,
+				EA1EF56C1BB6DCAA00E5C6B5 /* Info.plist */,
+			);
+			path = objc2.4.1RollingDicesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA1EF5411BB6DCAA00E5C6B5 /* objc2.4.1RollingDices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1EF56F1BB6DCAA00E5C6B5 /* Build configuration list for PBXNativeTarget "objc2.4.1RollingDices" */;
+			buildPhases = (
+				EA1EF53E1BB6DCAA00E5C6B5 /* Sources */,
+				EA1EF53F1BB6DCAA00E5C6B5 /* Frameworks */,
+				EA1EF5401BB6DCAA00E5C6B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = objc2.4.1RollingDices;
+			productName = objc2.4.1RollingDices;
+			productReference = EA1EF5421BB6DCAA00E5C6B5 /* objc2.4.1RollingDices.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA1EF55A1BB6DCAA00E5C6B5 /* objc2.4.1RollingDicesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1EF5721BB6DCAA00E5C6B5 /* Build configuration list for PBXNativeTarget "objc2.4.1RollingDicesTests" */;
+			buildPhases = (
+				EA1EF5571BB6DCAA00E5C6B5 /* Sources */,
+				EA1EF5581BB6DCAA00E5C6B5 /* Frameworks */,
+				EA1EF5591BB6DCAA00E5C6B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA1EF55D1BB6DCAA00E5C6B5 /* PBXTargetDependency */,
+			);
+			name = objc2.4.1RollingDicesTests;
+			productName = objc2.4.1RollingDicesTests;
+			productReference = EA1EF55B1BB6DCAA00E5C6B5 /* objc2.4.1RollingDicesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA1EF5651BB6DCAA00E5C6B5 /* objc2.4.1RollingDicesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1EF5751BB6DCAA00E5C6B5 /* Build configuration list for PBXNativeTarget "objc2.4.1RollingDicesUITests" */;
+			buildPhases = (
+				EA1EF5621BB6DCAA00E5C6B5 /* Sources */,
+				EA1EF5631BB6DCAA00E5C6B5 /* Frameworks */,
+				EA1EF5641BB6DCAA00E5C6B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA1EF5681BB6DCAA00E5C6B5 /* PBXTargetDependency */,
+			);
+			name = objc2.4.1RollingDicesUITests;
+			productName = objc2.4.1RollingDicesUITests;
+			productReference = EA1EF5661BB6DCAA00E5C6B5 /* objc2.4.1RollingDicesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA1EF53A1BB6DCAA00E5C6B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Kwan;
+				TargetAttributes = {
+					EA1EF5411BB6DCAA00E5C6B5 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					EA1EF55A1BB6DCAA00E5C6B5 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = EA1EF5411BB6DCAA00E5C6B5;
+					};
+					EA1EF5651BB6DCAA00E5C6B5 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = EA1EF5411BB6DCAA00E5C6B5;
+					};
+				};
+			};
+			buildConfigurationList = EA1EF53D1BB6DCAA00E5C6B5 /* Build configuration list for PBXProject "objc2.4.1RollingDices" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA1EF5391BB6DCAA00E5C6B5;
+			productRefGroup = EA1EF5431BB6DCAA00E5C6B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA1EF5411BB6DCAA00E5C6B5 /* objc2.4.1RollingDices */,
+				EA1EF55A1BB6DCAA00E5C6B5 /* objc2.4.1RollingDicesTests */,
+				EA1EF5651BB6DCAA00E5C6B5 /* objc2.4.1RollingDicesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA1EF5401BB6DCAA00E5C6B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1EF5551BB6DCAA00E5C6B5 /* LaunchScreen.storyboard in Resources */,
+				EA1EF5521BB6DCAA00E5C6B5 /* Assets.xcassets in Resources */,
+				EA1EF5501BB6DCAA00E5C6B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1EF5591BB6DCAA00E5C6B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1EF5641BB6DCAA00E5C6B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA1EF53E1BB6DCAA00E5C6B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1EF57A1BB6DE2F00E5C6B5 /* DisplayDicesViewController.m in Sources */,
+				EA1EF54D1BB6DCAA00E5C6B5 /* RollDiceViewController.m in Sources */,
+				EA1EF54A1BB6DCAA00E5C6B5 /* AppDelegate.m in Sources */,
+				EA1EF5471BB6DCAA00E5C6B5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1EF5571BB6DCAA00E5C6B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1EF5601BB6DCAA00E5C6B5 /* objc2_4_1RollingDicesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1EF5621BB6DCAA00E5C6B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1EF56B1BB6DCAA00E5C6B5 /* objc2_4_1RollingDicesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA1EF55D1BB6DCAA00E5C6B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA1EF5411BB6DCAA00E5C6B5 /* objc2.4.1RollingDices */;
+			targetProxy = EA1EF55C1BB6DCAA00E5C6B5 /* PBXContainerItemProxy */;
+		};
+		EA1EF5681BB6DCAA00E5C6B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA1EF5411BB6DCAA00E5C6B5 /* objc2.4.1RollingDices */;
+			targetProxy = EA1EF5671BB6DCAA00E5C6B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA1EF54E1BB6DCAA00E5C6B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA1EF54F1BB6DCAA00E5C6B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA1EF5531BB6DCAA00E5C6B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA1EF5541BB6DCAA00E5C6B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA1EF56D1BB6DCAA00E5C6B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA1EF56E1BB6DCAA00E5C6B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA1EF5701BB6DCAA00E5C6B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = objc2.4.1RollingDices/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kwan.objc2-4-1RollingDices";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA1EF5711BB6DCAA00E5C6B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = objc2.4.1RollingDices/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kwan.objc2-4-1RollingDices";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA1EF5731BB6DCAA00E5C6B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = objc2.4.1RollingDicesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kwan.objc2-4-1RollingDicesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/objc2.4.1RollingDices.app/objc2.4.1RollingDices";
+			};
+			name = Debug;
+		};
+		EA1EF5741BB6DCAA00E5C6B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = objc2.4.1RollingDicesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kwan.objc2-4-1RollingDicesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/objc2.4.1RollingDices.app/objc2.4.1RollingDices";
+			};
+			name = Release;
+		};
+		EA1EF5761BB6DCAA00E5C6B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = objc2.4.1RollingDicesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kwan.objc2-4-1RollingDicesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = objc2.4.1RollingDices;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EA1EF5771BB6DCAA00E5C6B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = objc2.4.1RollingDicesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kwan.objc2-4-1RollingDicesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = objc2.4.1RollingDices;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA1EF53D1BB6DCAA00E5C6B5 /* Build configuration list for PBXProject "objc2.4.1RollingDices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1EF56D1BB6DCAA00E5C6B5 /* Debug */,
+				EA1EF56E1BB6DCAA00E5C6B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA1EF56F1BB6DCAA00E5C6B5 /* Build configuration list for PBXNativeTarget "objc2.4.1RollingDices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1EF5701BB6DCAA00E5C6B5 /* Debug */,
+				EA1EF5711BB6DCAA00E5C6B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA1EF5721BB6DCAA00E5C6B5 /* Build configuration list for PBXNativeTarget "objc2.4.1RollingDicesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1EF5731BB6DCAA00E5C6B5 /* Debug */,
+				EA1EF5741BB6DCAA00E5C6B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA1EF5751BB6DCAA00E5C6B5 /* Build configuration list for PBXNativeTarget "objc2.4.1RollingDicesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1EF5761BB6DCAA00E5C6B5 /* Debug */,
+				EA1EF5771BB6DCAA00E5C6B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA1EF53A1BB6DCAA00E5C6B5 /* Project object */;
+}

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Roll Dice View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="RollDiceViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wTr-cg-xFv">
+                                <rect key="frame" x="225" y="279" width="151" height="41"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" title="Roll the Dice!"/>
+                                <connections>
+                                    <action selector="buttonRollDice:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pzC-ne-gG5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wTr-cg-xFv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zbc-zy-DrQ"/>
+                            <constraint firstItem="wTr-cg-xFv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="uH3-3u-fh9"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Display Dices View Controller-->
+        <scene sceneID="Omk-12-Y0V">
+            <objects>
+                <viewController storyboardIdentifier="DisplayRolledDice" id="dbI-qr-wGX" customClass="DisplayDicesViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NvH-f2-McS"/>
+                        <viewControllerLayoutGuide type="bottom" id="MTc-LB-pRd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cAE-ft-KOo">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AIe-E1-jkz">
+                                <rect key="frame" x="250" y="86" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="6Ff-Na-1It"/>
+                                    <constraint firstAttribute="height" constant="100" id="or1-ig-V1e"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Sza-tQ-aEF">
+                                <rect key="frame" x="250" y="250" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="ABA-s2-v35"/>
+                                    <constraint firstAttribute="width" constant="100" id="qZw-8y-Chk"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vns-JK-U0k">
+                                <rect key="frame" x="283" y="466" width="35" height="41"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" title="OK"/>
+                                <connections>
+                                    <action selector="buttonDismissVC:" destination="dbI-qr-wGX" eventType="touchUpInside" id="55s-tU-8nv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vns-JK-U0k" firstAttribute="top" relation="lessThanOrEqual" secondItem="Sza-tQ-aEF" secondAttribute="bottom" constant="127" id="2vL-RG-lMV"/>
+                            <constraint firstItem="Sza-tQ-aEF" firstAttribute="top" secondItem="AIe-E1-jkz" secondAttribute="bottom" constant="64" id="7eP-sx-laT"/>
+                            <constraint firstItem="AIe-E1-jkz" firstAttribute="centerX" secondItem="cAE-ft-KOo" secondAttribute="centerX" id="CLB-jh-Xt0"/>
+                            <constraint firstItem="Sza-tQ-aEF" firstAttribute="centerX" secondItem="AIe-E1-jkz" secondAttribute="centerX" id="KEW-ac-1dr"/>
+                            <constraint firstItem="vns-JK-U0k" firstAttribute="centerX" secondItem="Sza-tQ-aEF" secondAttribute="centerX" id="KuB-i3-pjS"/>
+                            <constraint firstItem="AIe-E1-jkz" firstAttribute="top" secondItem="NvH-f2-McS" secondAttribute="bottom" constant="66" id="Zsc-Pp-die"/>
+                            <constraint firstItem="MTc-LB-pRd" firstAttribute="top" secondItem="vns-JK-U0k" secondAttribute="bottom" constant="93" id="clo-NF-kW9"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageDiceOne" destination="AIe-E1-jkz" id="CsM-Dc-GMA"/>
+                        <outlet property="imageDiceTwo" destination="Sza-tQ-aEF" id="Ame-vN-CHz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mFG-Ua-BcS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1051" y="424"/>
+        </scene>
+    </scenes>
+</document>
